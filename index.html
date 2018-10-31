@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Regex</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<h3>Expression To Evaluate</h3>
+	<form action="" class="form">
+		<input type="text" class="input">
+		<input type="submit" value="submit">
+	</form>
+	<h3>How To Evaluate Expression - Character Classes</h3>
+	<select data="select" name="match" id="match">
+		<option class="opt" value="default">Default Regex Syntax</option>
+		<option class="opt" value="matchAnyChar">Match Any Character In Set</option>
+		<option class="opt" value="matchAnyCharExcept">Match Any Character In Set Except</option>
+		<option class="opt" value="beginsWithExcept">Match Any Character Except</option>
+		<option class="opt" value="anythingBut">anythingBut</option>
+		<option class="opt" value="matchSomething">matchSomething</option>
+		<option class="opt" value="somethingBut">somethingBut</option>
+		<option class="opt" value="find">find</option>
+	</select>
+	<div class="flags">
+		<h4>Flags</h4>
+		<input type="checkbox" value="ignoreCase" class="flag">Ignore Case
+		<input type="checkbox" value="globalSearch" class="flag">Global Search
+		<input type="checkbox" value="multiline" class="flag">MultiLine
+		<input type="checkbox" value="unicode" class="flag">Unicode
+		<input type="checkbox" value="sticky" class="flag">Sticky
+	</div>
+	<div class="response">
+		
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
