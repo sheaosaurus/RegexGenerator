@@ -1,7 +1,39 @@
-
-
-h2 {
-	font-size: 2rem;
+*:,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
+html {
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #eee;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 2px 1px rgb(145, 145, 145);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.response {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.submit {
+  text-transform: uppercase;
+}
